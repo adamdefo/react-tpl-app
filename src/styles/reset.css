@@ -1,0 +1,139 @@
+/* Reset CSS v2026 */
+/* Обнуляем отступы и поля у всех элементов */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Убираем стили у списков */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Обнуляем стили ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Обнуляем стили кнопок и полей ввода */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+/* Обнуляем стили таблиц */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Обнуляем стили изображений и медиа */
+img,
+svg,
+video,
+audio,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+/* Обнуляем стили заголовков и параграфов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* Обнуляем стили инлайн‑элементов */
+em,
+strong,
+i,
+b,
+span,
+small {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Обнуляем стили форм */
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+/* Обнуляем стили для HTML5‑элементов */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Убираем лишние отступы у HTML и body */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; /* Для Safari */
+}
+
+/* Обнуляем стили для pre и code */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Обнуляем стили для hr */
+hr {
+  height: 0;
+  color: inherit;
+  border: 0;
+}
+
+/* Обнуляем стили для abbr */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: none;
+}
